@@ -5,7 +5,7 @@ import seaborn as sns
 import streamlit as st
 
 # Load the dataset
-gold_data = pd.read_csv(r'C:\Users\ELCOT\Documents\projects\gld_price_data.csv')
+gold_data = pd.read_csv('gld_price_data.csv')
 
 def show_explore_page():
     st.title("Explore Details of Gold Price")
